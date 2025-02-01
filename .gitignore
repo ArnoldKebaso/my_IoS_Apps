@@ -1,0 +1,22 @@
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+
+# Build products
+build/
+DerivedData/
+*.app
+*.ipa
+
+# User specific files
+*.swp
+*.lock
+*.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
